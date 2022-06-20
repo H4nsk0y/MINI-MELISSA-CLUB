@@ -1,0 +1,220 @@
+/* Base styles start */
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+
+.Main_FlexContainer {
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-color: rgba(0, 0, 0, 0.2);
+}
+
+/* Base styles end */
+
+
+/* Custom styles start */
+
+.Flex_container {
+	width: 377px;
+	min-height: 627px;
+	background-color: white;
+	display: flex;
+	flex-direction: column;
+}
+
+
+.Main_FlexContainer {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+/* mail-logo start */
+.mail_logo {
+	padding: 12px;
+	height: 80px;
+	display: flex;
+	flex-direction: column;
+	font-weight: 700;
+	font-size: 23px;
+	line-height: 28px;
+	justify-content: flex-start;
+}
+
+.item_1 {
+	font-weight: 400;
+	font-size: 12px;
+	line-height: 15px;
+}
+
+/* mail-logo end */
+
+
+
+/* Order_num start */
+.Hello_User {
+	height: 100px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	padding: 12px 12px 1px 12px;
+	font-weight: 300;
+	font-size: 9px;
+	line-height: 11px;
+	color: black;
+}
+
+
+.item_2 {
+	font-weight: 300;
+	font-size: 9px;
+	line-height: 11px;
+	color: #656565;
+	align-self: flex-start;
+}
+
+.item_3 {
+	color: black;
+}
+
+/* Order_num end */
+
+
+
+/* YourOrder start */
+.Your_Order {
+	width: 353px;
+	height: 432px;
+	padding: 12px;
+	background-color: #C4C4C4;
+	border-radius: 12px;
+	align-self: center;
+}
+
+/* YourOrder end */
+
+
+
+/* DeliveryInfo start */
+.Delivery_Info {
+	height: 35px;
+	font-weight: 500;
+	font-size: 9px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+/* DeliveryInfo end */
+
+
+
+/* PersonalInfo start */
+.Personal_Info {
+	font-weight: 500;
+	font-size: 9px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	padding-bottom: 10px;
+}
+
+
+.item_6 {
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-end;
+}
+
+/* PersonalInfo end */
+
+
+
+/* Payment start */
+.Payment {
+	display: flex;
+	flex-direction: column;
+	padding-bottom: 12px;
+}
+
+.item_4 {
+	font-weight: 800;
+	font-size: 12px;
+	justify-content: flex-start;
+	padding-bottom: 10px;
+}
+
+.item_5 {
+	font-weight: 600;
+	font-size: 10px;
+	justify-content: flex-end;
+}
+
+/* Payment end */
+
+
+
+/* List start */
+.List {
+	max-height: 330px;
+	max-width: 330px;
+	padding-top: 10px;
+	align-items: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	overflow-y: auto;
+}
+
+/* List end */
+
+
+
+/* ListItem start */
+.List_Item {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	min-width: 275px;
+	min-height: 82px;
+	border: 1px solid #3D3A3A;
+	border-radius: 15px;
+	margin-bottom: 13px;
+}
+
+.Piсture {
+	position: relative;
+	left: 10px;
+	bottom: 5px;
+}
+
+
+.Name {
+	font-weight: 400;
+	font-size: 10px;
+}
+
+.Shoe_Size {
+	width: 170px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	font-style: normal;
+	font-weight: 700;
+	font-size: 10px;
+	padding-bottom: 3px;
+}
+
+.Content {
+	position: relative;
+	left: 15px;
+}
+
+/* ListItem end */
