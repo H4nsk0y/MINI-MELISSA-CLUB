@@ -7,13 +7,14 @@
 }
 
 
-.Main_FlexContainer {
+.main-flex-container {
 	position: fixed;
 	top: 0;
 	left: 0;
 	right: 0;
 	bottom: 0;
 	background-color: rgba(0, 0, 0, 0.2);
+
 }
 
 /* Base styles end */
@@ -21,7 +22,14 @@
 
 /* Custom styles start */
 
-.Flex_container {
+.main-flex-container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+
+.flex-container {
 	width: 377px;
 	min-height: 627px;
 	background-color: white;
@@ -30,14 +38,8 @@
 }
 
 
-.Main_FlexContainer {
-	display: flex;
-	justify-content: center;
-	align-items: center;
-}
-
 /* mail-logo start */
-.mail_logo {
+.mail-logo {
 	padding: 12px;
 	height: 80px;
 	display: flex;
@@ -48,7 +50,7 @@
 	justify-content: flex-start;
 }
 
-.item_1 {
+.mail-logo-order {
 	font-weight: 400;
 	font-size: 12px;
 	line-height: 15px;
@@ -58,8 +60,8 @@
 
 
 
-/* Order_num start */
-.Hello_User {
+/* mail- start */
+.mail-msg {
 	height: 100px;
 	display: flex;
 	flex-direction: column;
@@ -71,8 +73,11 @@
 	color: black;
 }
 
+.mail-msg-thx {
+	color: black;
+}
 
-.item_2 {
+.mail-msg-order-num {
 	font-weight: 300;
 	font-size: 9px;
 	line-height: 11px;
@@ -80,16 +85,13 @@
 	align-self: flex-start;
 }
 
-.item_3 {
-	color: black;
-}
 
 /* Order_num end */
 
 
 
 /* YourOrder start */
-.Your_Order {
+.mail-order {
 	width: 353px;
 	height: 432px;
 	padding: 12px;
@@ -103,7 +105,7 @@
 
 
 /* DeliveryInfo start */
-.Delivery_Info {
+.mail-order-delivery {
 	height: 35px;
 	font-weight: 500;
 	font-size: 9px;
@@ -117,7 +119,7 @@
 
 
 /* PersonalInfo start */
-.Personal_Info {
+.mail-order-pinfo {
 	font-weight: 500;
 	font-size: 9px;
 	display: flex;
@@ -127,7 +129,7 @@
 }
 
 
-.item_6 {
+.mail-order-email {
 	display: flex;
 	flex-direction: row;
 	justify-content: flex-end;
@@ -138,20 +140,20 @@
 
 
 /* Payment start */
-.Payment {
+.mail-order-payment {
 	display: flex;
 	flex-direction: column;
 	padding-bottom: 12px;
 }
 
-.item_4 {
+.mail-order-your-order {
 	font-weight: 800;
 	font-size: 12px;
 	justify-content: flex-start;
 	padding-bottom: 10px;
 }
 
-.item_5 {
+.mail-order-price {
 	font-weight: 600;
 	font-size: 10px;
 	justify-content: flex-end;
@@ -162,7 +164,7 @@
 
 
 /* List start */
-.List {
+.mail-order-list {
 	max-height: 330px;
 	max-width: 330px;
 	padding-top: 10px;
@@ -178,7 +180,7 @@
 
 
 /* ListItem start */
-.List_Item {
+.mail-order-list-item {
 	display: flex;
 	flex-direction: row;
 	align-items: center;
@@ -189,19 +191,19 @@
 	margin-bottom: 13px;
 }
 
-.Piсture {
+.mail-order-picture {
 	position: relative;
 	left: 10px;
 	bottom: 5px;
 }
 
 
-.Name {
+.mail-order-name {
 	font-weight: 400;
 	font-size: 10px;
 }
 
-.Shoe_Size {
+.mail-order-shoe-size {
 	width: 170px;
 	display: flex;
 	flex-direction: row;
@@ -212,7 +214,7 @@
 	padding-bottom: 3px;
 }
 
-.Content {
+.mail-order-content {
 	position: relative;
 	left: 15px;
 }

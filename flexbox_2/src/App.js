@@ -6,92 +6,92 @@ import img from './imagine/shoes.png'
 
 function App() {
 	return (
-		<div className="Main_FlexContainer">
-			<div className="Flex_container">
+		<div className="main-flex-container">
+			<div className="flex-container">
 
-				<div className="mail_logo">
+				<div className="mail-logo">
 					<p>MINI MELISSA CLUB</p>
-					<p className="item_1">Ваш заказ создан</p>
+					<p className="mail-logo-order">Ваш заказ создан</p>
 				</div>
 
 
 
-				<div className="Hello_User">
+				<div className="mail-msg">
 					<div>Здравствуйте, Ханахмед</div>
-					<div className="item_2">Спасибо за ваш заказ на сайте MiniMelissa.ru.<br />
+					<div className="mail-msg-thx">Спасибо за ваш заказ на сайте MiniMelissa.ru.<br />
 						Информация о вашем заказе представлена ниже</div>
-					<div className="item_3">Заказ #11111111</div>
+					<div className="mail-msg-order-num">Заказ #11111111</div>
 				</div>
 
 
 
 
-				<div className="Your_Order">
+				<div className="mail-order">
 
-					<div className="Delivery_Info">
+					<div className="mail-order-delivery">
 						<div>Информация о доставке</div>
 						<div>Санкт-Петербург<br />ул. Удельная 108</div>
 					</div>
 
 
-					<div className="Personal_Info">
+					<div className="mail-order-pinfo">
 						<div>Персональная информация:</div>
 						<div>Мирзоев Ханахмед Бегахмедович<br />
-							<div className="item_6">Ren4lk@yandex.ru</div></div>
+							<div className="mail-order-email">Ren4lk@yandex.ru</div></div>
 					</div>
 
 
-					<div className="Payment">
-						<div className="item_4">Ваш заказ</div>
-						<div className="item_5">К оплате: 3666 р</div>
+					<div className="mail-order-payment">
+						<div className="mail-order-your-order">Ваш заказ</div>
+						<div className="mail-order-price">К оплате: 3666 р</div>
 					</div>
 
 
-					<div className="List">
+					<div className="mail-order-list">
 
-						<div className="List_Item">
-							<img className="Piсture"
+						<div className="mail-order-list-item">
+							<img className="mail-order-picture"
 								src={img}
 								alt="shoes"
 							/>
-							<div className="Content">
-								<div className="Shoe_Size">
+							<div className="mail-order-content">
+								<div className="mail-order-shoe-size">
 									<p>Обувь</p>
 									<p>Размер: 35</p>
 								</div>
-								<div className="Name">
+								<div className="mail-order-name">
 									Non scelerisque<br />1280р.
 								</div>
 							</div>
 						</div>
 
-						<div className="List_Item">
-							<img className="Piсture"
+						<div className="mail-order-list-item">
+							<img className="mail-order-picture"
 								src={img}
 								alt="shoes"
 							/>
-							<div className="Content">
-								<div className="Shoe_Size">
+							<div className="mail-order-content">
+								<div className="mail-order-shoe-size">
 									<p>Обувь</p>
 									<p>Размер: 37</p>
 								</div>
-								<div className="Name">
+								<div className="mail-order-name">
 									Non scelerisque<br />1280р.
 								</div>
 							</div>
 						</div>
 
-						<div className="List_Item">
-							<img className="Piсture"
+						<div className="mail-order-list-item">
+							<img className="mail-order-picture"
 								src={img}
 								alt="shoes"
 							/>
-							<div className="Content">
-								<div className="Shoe_Size">
+							<div className="mail-order-content">
+								<div className="mail-order-shoe-size">
 									<p>Обувь</p>
 									<p>Размер: 36</p>
 								</div>
-								<div className="Name">
+								<div className="mail-order-name">
 									Non scelerisque<br />1280р.
 								</div>
 							</div>
