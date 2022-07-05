@@ -10,7 +10,7 @@ function App() {
 			<div className="flex-container">
 
 				<div className="mail-logo">
-					<p>MINI MELISSA CLUB</p>
+					<p className="mail-logo-name">MINI MELISSA CLUB</p>
 					<p className="mail-logo-order">Ваш заказ создан</p>
 				</div>
 
@@ -96,6 +96,11 @@ function App() {
 								</div>
 							</div>
 						</div>
+
+
+
+
+
 					</div>
 				</div>
 			</div>
